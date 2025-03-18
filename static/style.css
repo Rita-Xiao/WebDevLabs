@@ -1,0 +1,71 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    padding: 5px;
+    margin: 5px;
+}
+
+#listFun {
+
+    display:none;
+}
+#extend {
+    display:none;
+}
+#less {
+    display:none;
+}
+#buttonFun {
+    background-color: lightcyan;
+    font-family: "Arial", sans-serif;
+    font-weight: 5;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+#overallHead{
+    background-color: #d5f5e3;
+}
+#webname {
+    background-color: #d5f5e3;
+}
+a{
+    text-decoration: none;
+    color: #0b4c65;
+    margin-right: 15px;
+}
+
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: fit-content;
+    color: #5C5C5C;
+    background-color: #b5c4b1;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #faf1e7;
+    color: #6a665f;
+}
+tr:nth-child(odd) {
+    background-color:#dae7d9;
+}
+form{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#ValidateMessage {
+    width: max-content;
+    margin: auto;
+ }
+

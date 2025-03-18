@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rita">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Rita Professional Website">
+    <title>Rita</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="webname">Rita Xiao</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+        </nav>
+    </header>
+    <div class="main"> 
+        <h2>Contact Me</h2>
+        <form action="">
+            <label for="UserName">Your name (required): </label><br>
+            <input type="text" name="UserName" id="UserName" required> <br>
+            <label for="UserEmail">Your email (required): </label><br>
+            <input type="email" name="UserEmail" id="UserEmail" required> <br>
+            <label for="UserText">Your text (required): </label> <br>
+            <textarea name="UserText" id="UserText" cols="30" rows="10" required></textarea> <br>
+            <input type="submit" value="Send" onclick="validate()">
+        </form>
+        <p id="ValidateMessage"></p>
+        <table>
+            <tr>
+                <th>Contact Method Description</th>
+            </tr>
+            <tr>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+            </tr>
+            <tr>
+                <td>LinkedIn</td>
+            </tr>
+        </table>
+    </div>
+    <footer id="copyYear">&copy designed and coded by Rita</footer>
+
+
+    
+</body>
+</html>
